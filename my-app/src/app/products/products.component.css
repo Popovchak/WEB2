@@ -1,0 +1,10 @@
+tr, th{
+    width: 100px;
+    text-align: left;
+}
+.form-group{
+    margin: 20px;
+}
+.form-control{
+    margin: 10px;
+}

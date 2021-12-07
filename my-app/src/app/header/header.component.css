@@ -1,0 +1,25 @@
+.header-phone{
+    flex:1;
+   }
+   .header-buttons{
+    display:flex;
+   }
+   .header-buttons article{
+    border-right:1px white solid;
+    padding: 0 10px;
+   }
+   .header-buttons article:last-child{
+    border:none;
+   }
+   .header-buttons .header-text{
+    margin-left:3px;
+    display:none;
+   }
+   .header-buttons article:hover .header-text{
+    display:inline-flex;
+   }
+   @media(max-width:640px){
+    .header-phone{
+    display:none;
+    }
+   }
