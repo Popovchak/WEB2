@@ -1,0 +1,37 @@
+h1, h3{
+	text-align:center;
+}
+.choise{
+	display: table;
+    width: 100%;
+    table-layout: fixed;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.item{
+	display: table-cell;
+	text-align: center;
+	font-size: 1.2em;
+}
+.create{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+table {
+	border: 1px solid black;
+	margin: 1%;
+	border-collapse: collapse;
+}
+th,td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table thead tr th {
+	scope: col;
+}
+ p {
+	text-align: center;
+}
+#main_menu,#show_table_opiw,#show_table_warehouse,#show_table_product,#show_table_shop,#show_table_zvit1,#show_table_zvit2{
+	margin-bottom: 100%;
+}

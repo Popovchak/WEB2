@@ -1,0 +1,319 @@
+<html>
+
+<head>
+	<title>Lab2</title>
+	<link rel="stylesheet" href="styles_main.css">
+	<script src="main.js"></script>
+</head>
+
+<body>
+	<div id="main_menu">
+		<h1>Menu</h1>
+		<div class="choise">
+			<a class="item" href="#shop">
+				Shop</a>
+			<a class="item" href="#product">
+				Product</a>
+			<a class="item" href="#warehouse">
+				Warehouse</a>
+			<a class="item" href="#opiw">
+				Owned Product in Warehouse</a>
+			<a class="item" href="#zvit1">
+				Report1</a>
+			<a class="item" href="#zvit2">
+				Report2</a>
+			<a class="item" href="#main_menu">
+				Back to Menu</a>
+		</div>
+	</div>
+	
+	<div id="shop">
+		<h1>Shop</h1>
+		<div class="choise">
+			<a class="item" href="#shop">
+				Shop</a>
+			<a class="item" href="#product">
+				Product</a>
+			<a class="item" href="#warehouse">
+				Warehouse</a>
+			<a class="item" href="#opiw">
+				Owned Product in Warehouse</a>
+			<a class="item" href="#zvit1">
+				Report1</a>
+			<a class="item" href="#zvit2">
+				Report2</a>
+			<a class="item" href="#main_menu">
+				Back to Menu</a>
+		</div>
+		<div>
+			<h3>Create</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="sname">Name:</label>
+				<input type="text" id="sname" name="sname">
+				</div>
+				<div class="item">
+				<label for="saddress">Address:</label>
+				<input type="text" id="saddress" name="saddress">
+				</div>
+				<div class="item">
+				<input type="button" value="Create" id="create_shop">
+				</div>
+			</form> 
+		</div>
+		<div>
+			<h3>Edit or Delete(type only id)</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="seid">Id:</label>
+				<input type="text" id="seid" name="seid">
+				</div>
+				<div class="item">
+				<label for="sename">Name:</label>
+				<input type="text" id="sename" name="sename">
+				</div>
+				<div class="item">
+				<label for="seaddress">Address:</label>
+				<input type="text" id="seaddress" name="seaddress">
+				</div>
+				<div class="item">
+				<input type="button" value="Edit" id="edit_shop">
+				</div>
+			</form> 
+		</div>
+		<div id="show_table_shop"></div>
+	</div>
+	
+	<div id="product">
+		<h1>Product</h1>
+		<div class="choise">
+			<a class="item" href="#shop">
+				Shop</a>
+			<a class="item" href="#product">
+				Product</a>
+			<a class="item" href="#warehouse">
+				Warehouse</a>
+			<a class="item" href="#opiw">
+				Owned Product in Warehouse</a>
+			<a class="item" href="#zvit1">
+				Report1</a>
+			<a class="item" href="#zvit2">
+				Report2</a>
+			<a class="item" href="#main_menu">
+				Back to Menu</a>
+		</div>
+		<div>
+			<h3>Create</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="pname">Name:</label>
+				<input type="text" id="pname" name="pname">
+				</div>
+				<div class="item">
+				<label for="pproducent">Producent:</label>
+				<input type="text" id="pproducent" name="pproducent">
+				</div>
+				<div class="item">
+				<input type="button" value="Create" id="create_product">
+				</div>
+			</form> 
+		</div>
+		<div>
+			<h3>Edit or Delete(type only id)</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="eid">Id:</label>
+				<input type="text" id="peid" name="eid">
+				</div>
+				<div class="item">
+				<label for="ename">Name:</label>
+				<input type="text" id="pename" name="ename">
+				</div>
+				<div class="item">
+				<label for="eproducent">Producent:</label>
+				<input type="text" id="peproducent" name="eproducent">
+				</div>
+				<div class="item">
+				<input type="button" value="Edit" id="edit_product">
+				</div>
+			</form> 
+		</div>
+		<div id="show_table_product"></div>
+	</div>
+	
+	<div id="warehouse">
+		<h1>Warehouse</h1>
+		<div class="choise">
+			<a class="item" href="#shop">
+				Shop</a>
+			<a class="item" href="#product">
+				Product</a>
+			<a class="item" href="#warehouse">
+				Warehouse</a>
+			<a class="item" href="#opiw">
+				Owned Product in Warehouse</a>
+			<a class="item" href="#zvit1">
+				Report1</a>
+			<a class="item" href="#zvit2">
+				Report2</a>
+			<a class="item" href="#main_menu">
+				Back to Menu</a>
+		</div>
+		<div>
+			<h3>Create</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="wshop_id">Id of shop:</label>
+				<input type="text" id="wshop_id" name="wshop_id">
+				</div>
+				<div class="item">
+				<label for="wcapacity">Capacity:</label>
+				<input type="text" id="wcapacity" name="wcapacity">
+				</div>
+				<div class="item">
+				<input type="button" value="Create" id="create_warehouse">
+				</div>
+			</form> 
+		</div>
+		<div>
+			<h3>Edit or Delete(type only id)</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="weid">Id:</label>
+				<input type="text" id="weid" name="weid">
+				</div>
+				<div class="item">
+				<label for="weshop_id">Id of shop:</label>
+				<input type="text" id="weshop_id" name="weshop_id">
+				</div>
+				<div class="item">
+				<label for="wecapacity">Capacity:</label>
+				<input type="text" id="wecapacity" name="wecapacity">
+				</div>
+				<div class="item">
+				<input type="button" value="Edit" id="edit_warehouse">
+				</div>
+			</form> 
+		</div>
+		<div id="show_table_warehouse"></div>
+	</div>
+	
+	<div id="opiw">
+		<h1>Owned Product in Warehouse</h1>
+		<div class="choise">
+			<a class="item" href="#shop">
+				Shop</a>
+			<a class="item" href="#product">
+				Product</a>
+			<a class="item" href="#warehouse">
+				Warehouse</a>
+			<a class="item" href="#opiw">
+				Owned Product in Warehouse</a>
+			<a class="item" href="#zvit1">
+				Report1</a>
+			<a class="item" href="#zvit2">
+				Report2</a>
+			<a class="item" href="#main_menu">
+				Back to Menu</a>
+		</div>
+		<div>
+			<h3>Create</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="ware">ID Warehouse:</label>
+				<input type="text" id="ware" name="ware">
+				</div>
+				<div class="item">
+				<label for="prod">ID Product:</label>
+				<input type="text" id="prod" name="prod">
+				</div>
+				<div class="item">
+				<input type="button" value="Create" id="create_opiw">
+				</div>
+			</form> 
+		</div>
+		<div>
+			<h3>Edit or Delete(type only id)</h3>
+			<form class="choise">
+				<div class="item">
+				<label for="oeid">Id:</label>
+				<input type="text" id="oeid" name="oeid">
+				</div>
+				<div class="item">
+				<label for="oeware">ID Warehouse:</label>
+				<input type="text" id="oeware" name="oeware">
+				</div>
+				<div class="item">
+				<label for="oeprod">ID Product:</label>
+				<input type="text" id="oeprod" name="oeprod">
+				</div>
+				<div class="item">
+				<input type="button" value="Edit" id="edit_opiw">
+				</div>
+			</form> 
+		</div>
+		<div id="show_table_opiw"></div>
+	</div>
+	
+	<div id="zvit1">
+		<h1>Warehouses with less than 20% load</h1>
+		<div class="choise">
+			<a class="item" href="#shop">
+				Shop</a>
+			<a class="item" href="#product">
+				Product</a>
+			<a class="item" href="#warehouse">
+				Warehouse</a>
+			<a class="item" href="#opiw">
+				Owned Product in Warehouse</a>
+			<a class="item" href="#zvit1">
+				Report1</a>
+			<a class="item" href="#zvit2">
+				Report2</a>
+			<a class="item" href="#main_menu">
+				Back to Menu</a>
+		</div>
+		<div>
+			<form class="choise">
+				<div class="item">
+				<input type="button" value="Form report" id="form_zvit1">
+				</div>
+			</form> 
+		</div>
+		<div id="show_table_zvit1"></div>
+	</div>
+	
+	<div id="zvit2">
+		<h1>All products in Warehouse</h1>
+		<div class="choise">
+			<a class="item" href="#shop">
+				Shop</a>
+			<a class="item" href="#product">
+				Product</a>
+			<a class="item" href="#warehouse">
+				Warehouse</a>
+			<a class="item" href="#opiw">
+				Owned Product in Warehouse</a>
+			<a class="item" href="#zvit1">
+				Report1</a>
+			<a class="item" href="#zvit2">
+				Report2</a>
+			<a class="item" href="#main_menu">
+				Back to Menu</a>
+		</div>
+		<div>
+			<form class="choise">
+				<div class="item">
+				<label for="zware">ID Warehouse:</label>
+				<input type="text" id="zware" name="zware">
+				</div>
+				<div class="item">
+				<input type="button" value="Form report" id="form_zvit2">
+				</div>
+			</form> 
+		</div>
+		<div id="show_table_zvit2"></div>
+	</div>
+</body>
+
+</html>
